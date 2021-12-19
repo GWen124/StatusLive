@@ -315,11 +315,11 @@
                     }
                 }, [s("h4", {
                     staticClass: "card-title"
-                }, [t._v("网站"), s("span", {
+                }, [t._v("服务器状态"), s("span", {
                     staticStyle: {
                         "font-size": "1rem"
                     }
-                }, [t._v(" WebSite")])]), s("el-table", {
+                }, [t._v(" ServerStatus")])]), s("el-table", {
                     staticStyle: {
                         width: "100%"
                     },
