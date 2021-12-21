@@ -627,7 +627,7 @@
                 name: "Home",
                 component: y,
                 meta: {
-                    title: "网站监控"
+                    title: "Status Live"
                 }
             }],
             S = new g["a"]({
