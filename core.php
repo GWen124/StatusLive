@@ -8,7 +8,7 @@ $apikey = 'ur609264-826267974xxxxxxxxxxxxxxx';
 $file_name = 'uptime.json';
 
 //缓存时间，单位为秒，为11秒是因为UptimeRobotAPI免费用户调用限制为6次/分钟
-$cache_time = 11;
+$cache_time = 10;
 
 
 if(file_exists($file_name)){
