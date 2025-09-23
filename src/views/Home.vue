@@ -193,10 +193,9 @@
       </el-card>      
     </el-main>
     <el-footer>
-      <div class="container">
-        <p>基于 <a href="https://uptimerobot.com/" target="_blank">UptimeRobot</a> 接口制作，检测频率 5 分钟</p>
-        <p>© 2020 <a href="https://gw124.top" target="_blank">STATUSLIVE.GW124.TOP</a></p>
-      </div>
+      
+      <!--<el-button>默认按钮</el-button>-->
+      
     </el-footer>
   </el-container>
 </template>
@@ -321,39 +320,6 @@
 
 .chart {
   height: 400px;
-}
-
-/* Footer样式 */
-.el-footer {
-  background-color: transparent;
-  border-top: none;
-  padding: 20px 0;
-  margin-top: 30px;
-}
-
-.el-footer .container {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-.el-footer p {
-  margin: 3px 0;
-  color: #999;
-  font-size: 12px;
-  font-weight: normal;
-  line-height: 1.4;
-}
-
-.el-footer a {
-  color: #28a745;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.el-footer a:hover {
-  color: #1e7e34;
-  text-decoration: underline;
 }
 </style>
 
