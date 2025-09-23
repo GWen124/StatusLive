@@ -2,7 +2,9 @@
   <div id="app" style="">
 
     <!-- Nav -->
-    <router-view/>
+    <main class="app-main">
+      <router-view/>
+    </main>
 
     <footer class="app-footer">
       <div class="footer-line">基于 <a href="https://uptimerobot.com/" target="_blank" rel="noopener noreferrer" class="link-green">UptimeRobot</a> 接口制作，检测频率 5 分钟</div>
@@ -18,7 +20,9 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  padding-bottom: 64px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   
 }
 
@@ -26,16 +30,22 @@ body{
   background: #eeeeee;
 }
 
+.app-main{
+  flex: 1;
+}
+
 .app-footer{
   position: fixed;
   left: 0;
   right: 0;
-  bottom: 40px;
-  padding: 0 8px;
+  bottom: 0;
+  padding: 8px 8px;
   text-align: center;
   color: #6b7280;
-  background: transparent;
+  background: #eeeeee;
+  box-shadow: 0 -1px 0 rgba(0,0,0,0.06);
   line-height: 1.6;
+  z-index: 2147483647;
 }
 
 .app-footer .footer-line{
