@@ -194,13 +194,8 @@
     </el-main>
     <el-footer>
       <div class="container">
-        <p>基于 
-          <a href="https://uptimerobot.com/" target="_blank" class="uptimerobot-link">UptimeRobot</a>
-          接口制作，检测频率 5 分钟
-        </p>
-        <p>© 2020 
-          <a href="https://gw124.top" target="_blank" class="sitestatus-link">STATUSLIVE.GW124.TOP</a>
-        </p>
+        <p>基于 <a href="https://uptimerobot.com/" target="_blank">UptimeRobot</a> 接口制作，检测频率 5 分钟</p>
+        <p>© 2020 <a href="https://gw124.top" target="_blank">STATUSLIVE.GW124.TOP</a></p>
       </div>
     </el-footer>
   </el-container>
@@ -351,24 +346,12 @@
 }
 
 .el-footer a {
+  color: #28a745;
   text-decoration: none;
   font-weight: bold;
 }
 
-.el-footer .uptimerobot-link {
-  color: #28a745;
-}
-
-.el-footer .uptimerobot-link:hover {
-  color: #1e7e34;
-  text-decoration: underline;
-}
-
-.el-footer .sitestatus-link {
-  color: #28a745;
-}
-
-.el-footer .sitestatus-link:hover {
+.el-footer a:hover {
   color: #1e7e34;
   text-decoration: underline;
 }
