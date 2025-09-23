@@ -3,6 +3,11 @@
 
     <!-- Nav -->
     <router-view/>
+
+    <footer class="app-footer">
+      <div class="footer-line">基于 <a href="https://uptimerobot.com/" target="_blank" rel="noopener noreferrer" class="link-green">UptimeRobot</a> 接口制作，检测频率 5 分钟</div>
+      <div class="footer-line">© 2020 <a href="https://gw124.top/" target="_blank" rel="noopener noreferrer" class="link-green">STATUSLIVE.GW124.TOP</a></div>
+    </footer>
   </div>
 </template>
 
@@ -13,11 +18,38 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  padding-bottom: 64px;
   
 }
 
 body{
   background: #eeeeee;
 }
+
+.app-footer{
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 40px;
+  padding: 0 8px;
+  text-align: center;
+  color: #6b7280;
+  background: transparent;
+  line-height: 1.6;
+}
+
+.app-footer .footer-line{
+  font-size: 12px;
+  margin: 2px 0;
+}
+
+.app-footer a{ text-decoration: none; }
+
+.app-footer a.link-green{
+  color: #16a34a;
+  font-weight: 600;
+}
+
+.app-footer a:hover{ text-decoration: underline; }
 
 </style>
