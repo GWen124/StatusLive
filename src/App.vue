@@ -8,7 +8,7 @@
 
     <footer class="app-footer">
       <div class="footer-line">基于 <a href="https://uptimerobot.com/" target="_blank" rel="noopener noreferrer" class="link-green">UptimeRobot</a> 接口制作，检测频率 5 分钟</div>
-      <div class="footer-line">© 2020 <a href="https://gw124.top/" target="_blank" rel="noopener noreferrer" class="link-green">STATUSLIVE.GW124.TOP</a></div>
+      <div class="footer-line">© 2020 <a href="https://gw124.com/" target="_blank" rel="noopener noreferrer" class="link-green">STATUSLIVE.GW124.COM</a></div>
     </footer>
   </div>
 </template>
